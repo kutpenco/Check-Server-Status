@@ -1,24 +1,24 @@
-# Check Server Status
+# Checar Status do Servidor
 
-PHP Script that check if a server is online or not.
+Script em PHP para checar se o servidor está online ou não.
 
-## Installation
-- Clone this repo in your web folder.
-- Add your servers in the servers.xml file.
+## Instalação
+- Clone este repositório no seu servidor WEB.
+- Adicione os servidores no arquivo servers.xml.
 
-Example :
+Exemplo :
 
 ```
 <servers>
 	<server id="42">
-		<name>Home Server</name>
-		<host>myserver.com</host>
+		<name>Site Server</name>
+		<host>meuservidor.com.br</host>
 		<port>80</port>
 	</server>
 </servers>
 ``` 
-- Access the index.php page.
+- Acesse a pagina index.php.
 
-## Screenshot
+## Print
 
 ![Main](https://github.com/p1rox/Check-Server-Status/raw/master/img/main.png)
